@@ -1,0 +1,119 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #293039;
+  height: 100%;
+}
+
+.slogan {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  margin: 50px 0;
+  letter-spacing: 10px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.alphabet-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: calc(50% - 200px);
+  padding: 50px 100px;
+}
+
+.letter {
+  width: 50px;
+  height: 50px;
+  border: solid #293039 1px;
+  border-radius: 20%;
+  background-color: #ffbb00;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.letter:hover {
+  background-color: #293039;
+  color: #fff;
+  cursor: pointer;
+}
+
+.finish-game-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.finish-game-button {
+  padding: 20px;
+  width: 300px;
+  border-radius: 20px;
+  font-size: 25px;
+  border: none;
+  color: #293039;
+  background-color: #ffbb00;
+  cursor: pointer;
+}
+
+.slogan-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.slogan-form-input {
+  border: 1px solid #293039;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 15px;
+  letter-spacing: 1px;
+}
+
+.slogan-form-input:focus {
+  outline: none;
+}
+
+.slogan-form-button {
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #293039;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.slogan-form-button:hover {
+  background-color: #ffbb00;
+  color: #293039;
+  border-color: #293039;
+}
+
+.green {
+  background-color: #3f681c;
+}
+
+.red {
+  background-color: #fb6542;
+}
+
+.hangman {
+  width: 50%;
+}
